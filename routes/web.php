@@ -15,9 +15,9 @@ use App\Http\Controllers\CarsController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::resource('/patsportfolio.herokuapp.com', CarsController::class);
+// Route::resource('/', CarsController::class);
 
-Route::get('/s', [PagesController::class, 'main']);
+Route::get('/', [PagesController::class, 'main']);
 // Route::get('/about', [PagesController::class, 'about']);
 
 //Posts endpoint
