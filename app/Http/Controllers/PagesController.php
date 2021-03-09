@@ -8,7 +8,7 @@ class PagesController extends Controller
 {
     public function main(){
 
-        return view('main');
+        return view('layouts.app');
     }
 
     public function about(){
