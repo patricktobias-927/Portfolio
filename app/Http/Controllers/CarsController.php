@@ -15,13 +15,13 @@ class CarsController extends Controller
     public function index()
     {
         // Eloquent ALl
-        $cars = Car::all();
+        // $cars = Car::all();
 
         // $cars = Car::where('name', '=', 'Audi')->get();
 
-        return view('index', [
-            'cars' => $cars
-            ]);
+        // return view('index', [
+        //     'cars' => $cars
+        //     ]);
     }
 
     /**
